@@ -1,0 +1,15 @@
+.btnContainer{
+    margin:30px
+}
+.btnContainer span{
+    padding-left: 40px;
+}
+.btnContainer span button{
+    
+    background-color: rgb(35, 35, 83);
+    font-size: 1em;
+    border-radius: 0.2em ;
+    height: 25px;
+    padding-top: 0px;
+    color: white;
+}
