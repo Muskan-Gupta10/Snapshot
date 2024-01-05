@@ -12,7 +12,7 @@ const {input,setInput}=useContext(photoContext)
         <input value={text} type="text" name="search" placeholder="Search..." style={{fontSize:'20px'}}
     onChange={(e)=>{setText(e.target.value)}}/>
 
-        <button  type="submit" onClick={()=>{setInput(text)}} >Search</button>
+        <button  id="search" type="submit" onClick={()=>{setInput(text)}} >Search</button>
         <div className="btnContainer">
         <span><button onClick={()=>{setInput("Mountain")}}>Mountain</button></span>
         <span><button onClick={()=>{setInput('Beach')}}>Beach</button></span>

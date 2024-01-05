@@ -16,6 +16,7 @@ const PhotoProvider = ({ children }) => {
 };
 function App() {
   return (
+    <div id="appContainer">
     <BrowserRouter>
     <PhotoProvider>
     <h1>Snapshot</h1>
@@ -26,6 +27,7 @@ function App() {
       
     </PhotoProvider>
     </BrowserRouter>
+    </div>
   );
 }
 

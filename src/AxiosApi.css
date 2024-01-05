@@ -1,7 +1,8 @@
 .App{
-    max-width: 120rem;
+    max-width: 55rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1.6rem;
+    gap: 1.1rem;
     list-style: none;
+    margin-left: 15vw;
 }
